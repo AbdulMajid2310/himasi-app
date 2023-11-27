@@ -1,0 +1,59 @@
+:root {
+  --darkBlue: #00296b;
+  --darkConflowerBlue: #003f88;
+  --usafaBlue: #00509d;
+  --goldePoppy: #fdc500;
+  --goldWebGolden: #ffd500;
+  --montserrat: 'Montserrat', sans-serif;;
+  --lato: 'Lato', sans-serif;
+}
+
+body{
+  font-family: var(--lato);
+/* font-family: 'Montserrat', sans-serif; */
+}
+
+strong{
+  font-family: var(--montserrat)
+}
+
+.bg-primary{
+  background-color: var(--darkConflowerBlue) !important;
+}
+
+.text-primary{
+  color: var(--darkConflowerBlue) !important;
+}
+
+.btn-outline-primary{
+  border-color: var(--darkConflowerBlue);
+  color: var(--darkConflowerBlue);
+  border-radius: 30px;
+}
+.btn-outline-white{
+  border-color: white;
+  color: var(--darkConflowerBlue);
+  border-radius: 30px;
+}
+
+.truncate {
+  height: 40px !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+
+.form-floating{
+  margin-bottom: 10px;
+}
+.form-floating input:focus{
+  outline: none !important;
+	border-color: var(--usafaBlue);
+	box-shadow: 0 0 0 #CF0A0A;
+}
+
+.form-label{
+  font-size: small;
+}
